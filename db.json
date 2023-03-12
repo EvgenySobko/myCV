@@ -1,14 +1,84 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "jobs":[
+      {
+         "company":{
+            "name":"Tabby.ai",
+            "description":"\"Tabby is the most popular \"Buy now, pay later\" service in the countries of the Middle East such as United Arab Emirates, Saudi Arabia, Kuwait, Bahrain and Egypt.\""
+         },
+         "start_date":1653177600,
+         "end_date":null,
+         "role_description":[
+            {
+               "title":"Senior Android Software Engineer",
+               "responsibilities":"Developed from scratch one of the most valuable module of application.\nUsed some specific libraries for fin-tech product: Visa in-app provisioning SDK\nand \"Know Your Customer\" library from certified provider.\nWorked with large multi module application written on Kotlin. Adhered to\nthe principles of SOLID and Clean Architecture in development. Used MVI architecture based on self-developed DSL State Machine. The development used the most modern technologies, such as Kotlin Flow, Android Jetpack Architecture Components (Navigation, Compose), Dagger2 for dependency injection.\nCommunicated with a large multilingual team of developers, designers and product analysts.\nHad experience of leading small team of developers.",
+               "skills":"FinTech · KYC Verification · SDK development · Version Control Tools · Team Leadership · Retrofit · Kotlin Coroutines · Jira · Dependency Injection · SOLID Design Principles · Slack · Kanban · Android Development · Kotlin · Git · Agile Methodologies"
+            }
+         ]
+      },
+      {
+         "company":{
+            "name":"MTS Digital",
+            "description":"MTS is one of top 5 largest ecosystems company in Russia."
+         },
+         "start_date":1603152000,
+         "end_date":1653177600,
+         "role_description":[
+            {
+               "title":"Senior Android Software Engineer",
+               "responsibilities":"Had the promotion to Senior Android Software Engineer.\nHad experience of leading the mobile team.\nRefactored old architecture of presentation layer (MVP) to new one (MVI).\nReplaced RxJava2 with Kotlin Coroutines.",
+               "skills":"Refactoring · Team Leadership · Kotlin Coroutines · Dependency Injection · MVI"
+            },
+            {
+               "title":"Android Developer",
+               "responsibilities":"Worked on the project named \"Smart Home\". Application allows user to interact with his smart devices, add partners devices over backend or directly in-app.\nUsed Kotlin, RxJava2 and Coroutines, MVP (Mosby) and MVVM, Cicerone, Dagger2, Clean Architecture, Websockets, created custom UI elements, used version control system (Git).\nRefactored old code and replaced MVP architectures with MVVM + MVI.\nHad a lot of team communication with analysts, backend developers and designers.",
+               "skills":"Version Control Tools · WebSocket · Internet of Things (IoT) · Model-View-Presenter (MVP) · Retrofit · SOLID Design Principles · Mobile Application Development · Kotlin · RxJava · Git · Clean Architecture · Java · Agile Methodologies"
+            }
+         ]
+      },
+      {
+         "company":{
+            "name":"Luxoft",
+            "description":""
+         },
+         "start_date":1586217600,
+         "end_date":1603152000,
+         "role_description":[
+            {
+               "title":"Android Developer",
+               "responsibilities":"Worked on projects for Huawei and Alcatel.\nCreated documentation for using own solutions.\nWorked on large projects and made huge refactorings.",
+               "skills":"SDK development · MVVM · MVP · Bluetooth · Voice over IP (VoIP) · Retrofit · Confluence · Mobile Application Development · Android Development · Software Documentation · Kotlin · Java"
+            }
+         ]
+      },
+      {
+         "company":{
+            "name":"Secreate.io",
+            "description":""
+         },
+         "start_date":1557187200,
+         "end_date":1586217600,
+         "role_description":[
+            {
+               "title":"Android Developer",
+               "responsibilities":"Worked on two large projects: the application for the hockey club \"Avangard\" and the application with discounts and promotions \"Yakupil!\".\nDeveloped from scratch an application for the Moscow concert hall Zaryadye.\nWorked with Kotlin and Java, RxJava2 and Coroutines, Realm, MVP (Moxy) and MVVM, Dagger2, Jetpack Navigation Component, HTML parsing, created custom UI.\nCommunicated with the customer to obtain technical specifications and clarify requirements.",
+               "skills":"Retrofit · Kotlin Coroutines · Jira · Confluence · Dependency Injection · SOLID Design Principles · Android Development · RxJava · Clean Architecture"
+            }
+         ]
+      },
+      {
+         "company":{
+            "name":"Evento LLC",
+            "description":"Evento was the startup, which should be geo-social network. The main idea was to connect users with event organizers such as concerts, museums visiting or meetings. Also it has the ability to invite your friends to meetings and book tickets together."
+         },
+         "start_date":1515283200,
+         "end_date":1557187200,
+         "role_description":[
+            {
+               "title":"Junior Android Developer",
+               "responsibilities":"Worked in a small team of developers, designers and QA.",
+               "skills":"Retrofit · Dependency Injection · Slack · Kanban · Android Development · Kotlin · RxJava · Firebase"
+            }
+         ]
+      }
+   ]
 }
